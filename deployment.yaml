@@ -28,7 +28,7 @@ spec:
     spec:
       containers:
         - name: flask-kubernetes-test
-          image: docker.io/dksipl/minikube-flask-app
+          image: docker.io/dksipl/flask-kubernetes-test
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 5000
